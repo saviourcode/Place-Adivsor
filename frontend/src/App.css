@@ -1,0 +1,112 @@
+.marker {
+    background-image: url('https://secure.webtoolhub.com/static/resources/icons/set101/1dc0e500.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+.card{
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 999;
+}
+
+label {
+    width: max-content;
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 0.5px solid tomato;
+    margin: 3px, 0;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.star{
+    color: gold;
+}
+
+.username{
+    font-size: 14px;
+}
+
+.date{
+    font-size:12px;
+}
+
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 12px;
+    color: rgb(172,198,198);
+}
+
+.submitButton{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.buttons,
+.logout {
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.logout{
+  background-color: tomato;
+}
+
+.login{
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register{
+  background-color: slateblue;
+}
